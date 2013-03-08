@@ -1,14 +1,4 @@
 
-!------------------------------------------------------------------------------!
-Interpolates inside a triangular mesh.
-Uses matplotlib.tri triangular mesh.
-!------------------------------------------------------------------------------!
+This code has now been improved and merged into matplotlib.
 
-TriLinearInterpolator : linear interpolator
-TriCubicInterpolator : C1-piecewise interpolator based on reduced 
-Hsieh-Clough-Tocher (reduced HCT) element.
-
-Note:
-Also used to make higher-quality tricontour plots, using C1-piecewise
-interpolation on a refined mesh and matplotlib tricontour function.
-SmoothTriContour.py shows the principles.
+Refer to https://github.com/matplotlib/matplotlib/issues/1521
